@@ -268,7 +268,8 @@ p {
 
 /* Noise Overlay */
 .noise-overlay {
-    filter: contrast(170%) grayscale(100%);
+    -webkit-filter: contrast(170%) grayscale(100%);
+            filter: contrast(170%) grayscale(100%);
     mix-blend-mode: multiply;
     position: fixed;
     top: 0;
