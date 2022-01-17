@@ -48,6 +48,8 @@ body {
     html,
     body {
         font-size: 24px;
+        background-image: url("assets/mobile_BG.jpg");
+        background-position: cover;
     }
 }
 
