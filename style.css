@@ -6,7 +6,7 @@
     --color-ink: #000;
     --color-reverse: #fff;
 
-    --font-family: 'PP NeueBit', monospace, sans-serif;
+    --font-family: 'PP NeueBit', Arial, Helvetica, sans-serif;
 
     --size-s: 5px;
     --size-m: 15px;
@@ -230,12 +230,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    min-width: 60px;
 }
 
 .email-icon {
     color: var(--color-reverse);
     width: 40px;
+}
+
+@media all and (max-width: 768px) {
+    .email-icon {
+        color: var(--color-reverse);
+        width: 30px;
+    }
 }
 
 /* Model Viewer */
