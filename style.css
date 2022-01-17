@@ -249,6 +249,11 @@ p {
     /* min-height: 80vh; */
 }
 
+.model-viewer::part(default-progress-bar),
+.model-viewer::part(default-progress-mask) {
+    display: none;
+}
+
 
 @media all and (max-width: 768px) {
     .model-wrapper {
