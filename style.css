@@ -23,7 +23,7 @@ body {
     padding: 0;
     font-size: 32px;
     font-weight: bold;
-    background-image:#99ffbb;
+    /* background-image:#99ffbb; */
     background-image:  
     -o-radial-gradient(at 58% 67%, hsla(164,76%,62%,1) 0, transparent 43%),  
     -o-radial-gradient(at 84% 27%, hsla(354,79%,62%,1) 0, transparent 49%),  
@@ -40,6 +40,8 @@ body {
     radial-gradient(at 45% 95%, hsla(209,80%,68%,1) 0, transparent 54%),  
     radial-gradient(at 9% 81%, hsla(171,63%,62%,1) 0, transparent 45%),  
     radial-gradient(at 47% 39%, hsla(329,80%,64%,1) 0, transparent 44%);
+    background-size: cover;
+    background-position: center;
 }
 
 @media all and (max-width: 768px) {
