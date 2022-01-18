@@ -278,8 +278,10 @@ p {
 
 .model-viewer {
     --poster-color: transparent;
-    width: 80%;
-    max-width: 500px;
+    /* width: 80%;
+    max-width: 500px; */
+    width: 60%;
+    max-width: 900px;
     flex-grow: 2;
     /* min-height: 80vh; */
 }
