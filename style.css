@@ -40,10 +40,11 @@ body {
     radial-gradient(at 45% 95%, hsla(209,80%,68%,1) 0, transparent 54%),  
     radial-gradient(at 9% 81%, hsla(171,63%,62%,1) 0, transparent 45%),  
     radial-gradient(at 47% 39%, hsla(329,80%,64%,1) 0, transparent 44%);
-    background-size: 400% 400%;
-    animation: gradientMovement 50s ease infinite;
+    background-size: 200% 200%;
+    animation: gradientMovement 30s ease infinite;
     /* background-position: center; */
 }
+
 
 @keyframes gradientMovement {
 	0% {
